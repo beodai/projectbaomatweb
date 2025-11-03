@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php require('inc/links.php'); ?>
-  <title><?php "TELOT HOTEL" ?> - BOOKING STATUS</title>
+  <title><?php "LUXURY HOTEL" ?> - BOOKING STATUS</title>
 </head>
 <body class="bg-light">
 

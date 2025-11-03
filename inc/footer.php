@@ -1,9 +1,9 @@
 <div class="container-fluid bg-white mt-5">
   <div class="row">
     <div class="col-lg-4 p-4">
-      <h3 class="h-font fw-bold fs-3 mb-2"><?php echo "TELOT HOTEL" ?></h3>
+      <h3 class="h-font fw-bold fs-3 mb-2"><?php echo "LUXURY HOTEL" ?></h3>
       <p>
-        <?php echo "Chào mừng bạn đến với Telot Hotel, nơi mang đến cho bạn trải nghiệm đích thực về văn hóa và phong cách Nhật Bản. Với kiến trúc truyền thống, nội thất tinh tế và dịch vụ chuyên nghiệp, chúng tôi cam kết mang đến cho bạn một kỳ nghỉ đáng nhớ." ?>
+        <?php echo "Chào mừng bạn đến với Luxury Hotel, nơi mang đến cho bạn trải nghiệm đích thực về văn hóa và phong cách Nhật Bản. Với kiến trúc truyền thống, nội thất tinh tế và dịch vụ chuyên nghiệp, chúng tôi cam kết mang đến cho bạn một kỳ nghỉ đáng nhớ." ?>
       </p>
     </div>
     <div class="col-lg-4 p-4">
@@ -35,7 +35,7 @@
   </div>
 </div>
 
-<h6 class="text-center bg-dark text-white p-3 m-0">Telot Hotel - @2023 Huỳnh Ân</h6>
+<h6 class="text-center bg-dark text-white p-3 m-0">Luxury Hotel - @2025 Thái Nam</h6>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

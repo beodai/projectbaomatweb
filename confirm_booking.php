@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php require('inc/links.php'); ?>
-  <title><?php echo "TELOT HOTEL" ?> - CONFIRM BOOKING</title>
+  <title><?php echo "LUXURY HOTEL" ?> - CONFIRM BOOKING</title>
   <style>
     .button-disabled {
       background-color: #77d7c9; 
@@ -202,41 +202,6 @@
 
     }
   </script>
-
-  <?php
-    // function query($query, $params, $types) {
-    //   $pdo = new PDO('mysql:host=localhost;dbname=vinhhotel', 'root', '');
-    //   $stmt = $pdo->prepare($query);
-    //   $stmt->execute($params);
-    //   return $stmt->fetchAll(PDO::FETCH_ASSOC);
-    // }
-
-    // // Lấy số lượng phòng còn lại từ cơ sở dữ liệu
-    // $q_quantity = "SELECT `quantity` FROM `rooms` WHERE `id` = ?";
-    // $result = query($q_quantity, [$_SESSION['room']['id']], 'iiiiiiiii');
-    // $remaining_quantity = $result[0]['quantity'];
-
-    // echo $remaining_quantity;
-    // if ($remaining_quantity == 0) {
-    //   // Hiển thị thông báo đã hết phòng
-    //   // Thêm lớp CSS mới vào nút đặt phòng
-    //   echo '<script>document.getElementById("book-now").classList.add("button-disabled");</script>';
-    //   echo '<script>document.getElementById("pay_info").innerHTML = "Đã hết phòng, vui lòng chọn phòng khác!!!";</script>';
-    //   // echo "<script>let booking_form = document.getElementById('booking_form');booking_form.elements['pay_now'].setAttribute('disabled', true);</script>";
-    // }
-
-    // if ($remaining_quantity > 8) {
-    //   // Hiển thị thông báo đã hết phòng
-    //   echo "Đã hết phòng";
-    //   // Thêm lớp CSS mới vào nút đặt phòng và disable nút đó
-    //   echo "<script>let booking_form = document.getElementById('booking_form');booking_form.elements['pay_now'].setAttribute('disabled', true);booking_form.elements['pay_now'].style.opacity = '0.5';</script>";
-    // } else {
-    //   // Xóa lớp CSS và enable nút đặt phòng
-    //   echo "<script>let booking_form = document.getElementById('booking_form');booking_form.elements['pay_now'].removeAttribute('disabled');booking_form.elements['pay_now'].style.opacity = '1';</script>";
-    // }
-    
-  ?>
-
 </body>
 
 </html>

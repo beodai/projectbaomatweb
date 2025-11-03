@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link  rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
   <?php require('inc/links.php'); ?>
-  <title><?php echo "TELOT HOTEL"?> - GIỚI THIỆU</title>
+  <title><?php echo "LUXURY HOTEL"?> - GIỚI THIỆU</title>
   <style>
     .box{
       border-top-color: var(--teal) !important;

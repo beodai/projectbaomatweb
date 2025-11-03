@@ -112,8 +112,7 @@
               </div>
               <div class="col-md-6 mb-3">
                 <label class="form-label">Số Điện Thoại</label>
-                <!-- <input name="phonenum" type="number" class="form-control shadow-none" required> -->
-                <input name="phonenum" type="text" class="form-control shadow-none" required maxlength="10" pattern="0[0-9]{9}" title="Số điện thoại phải bắt đầu bằng số 0 và đủ 10 số">
+                <input name="phonenum" type="number" class="form-control shadow-none" required>
               </div>
               <div class="col-md-6 mb-3">
                 <label class="form-label">Ảnh</label>

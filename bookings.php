@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php require('inc/links.php'); ?>
-  <title><?php echo "TELOT HOTEL" ?> - PHÒNG ĐẶT</title>
+  <title><?php echo "LUXURY HOTEL" ?> - PHÒNG ĐẶT</title>
 </head>
 
 <body class="bg-light">
@@ -55,7 +55,7 @@
           if ($data['arrival'] == 1) {
             // $btn = "<a href='generate_pdf.php?gen_pdf&id=$data[booking_id]' class='btn btn-dark btn-sm shadow-none'>Tải Xuống PDF</a>";
 
-            if ($data['rate_review'] == 0) {
+            if ($data['rate_review'] == 0 ) {
               $btn .= "<button type='button' onclick='review_room($data[booking_id],$data[room_id])' data-bs-toggle='modal' data-bs-target='#reviewModal' class='btn btn-dark btn-sm shadow-none ms-2'>Đánh Giá</button>";
             }
           } else {
@@ -80,8 +80,11 @@
         } else {
           $status_bg = "bg-warning";
           // $btn = "<a href='' onclick='' class='btn btn-danger btn-sm shadow-none'>Huỷ Đặt Phòng</a>";
-          $btn = "<button onclick='cancel_booking($data[booking_id])' type='button' class='btn btn-danger btn-sm shadow-none'>Huỷ Đặt Phòng</button>";
-          $btn .= "<button onclick='showQrModal($data[booking_id])' type='button' class='btn btn-success btn-sm shadow-none ms-2'>Thanh Toán</button>";
+          $btn = "<div class='d-flex flex-column gap-2'>";
+          $btn .= "<button onclick='cancel_booking($data[booking_id])' type='button' class='btn btn-danger btn-sm shadow-none'>Huỷ Đặt Phòng</button>";
+          $btn .= "<button type='button' class='btn btn-success btn-sm shadow-none' onclick='showQrModal($data[booking_id])'>Chuyển khoản</button>";
+          $btn .= "<a href='vnpay_php/vnpay_pay.php?booking_id=$data[booking_id]&amount=$data[price]' class='btn btn-success btn-sm shadow-none'>Thanh Toán Online</a>";
+          $btn .= "</div>";
         }
 
 

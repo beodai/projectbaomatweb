@@ -166,22 +166,3 @@ if (isset($_POST['cancel_booking'])) {
 
 }
 
-// traphong();
-// function traphong(){
-//   $frm_data = filteration($_POST);
-
-//   function query($query, $params, $types) {
-//     $pdo = new PDO('mysql:host=localhost;dbname=hbwebsite', 'root', '');
-//     $stmt = $pdo->prepare($query);
-//     $stmt->execute($params);
-//     return $stmt->fetchAll(PDO::FETCH_ASSOC);
-//   }
-
-//   // Lấy số lượng phòng còn lại từ cơ sở dữ liệu
-//   $q_room = "SELECT `room_id` FROM `booking_order` WHERE `booking_id`=?";
-//   $result = query($q_room, [$frm_data['booking_id']], 'iiiiiiiii');
-//   $room_idd = $result[0]['room_id'];
-
-//   echo $room_id;
-
-// }

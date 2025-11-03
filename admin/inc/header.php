@@ -1,5 +1,5 @@
 <div class="container-fluid bg-dark text-light p-3 d-flex align-items-center justify-content-between sticky-top">
-  <h3 class="mb-0 h-font">KIMOCHI HOTEL</h3>
+  <h3 class="mb-0 h-font">LUXURY HOTEL</h3>
   <a href="logout.php" class="btn btn-light btn-sm">Đăng Xuất</a>
 </div>
 
@@ -50,9 +50,9 @@
           <li class="nav-item">
             <a class="nav-link text-white" href="features_facilities.php">Cơ Sở và Trang Thiết Bị</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link text-white" href="carousel.php">Slided</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link text-white" href="settings.php">Thiết Lập</a>
           </li>
